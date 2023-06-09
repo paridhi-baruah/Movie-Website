@@ -175,7 +175,7 @@ body{
 {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 1.8vw;
+    font-size: 1.65vw;
     padding-right: 5%;
 }
 .rate
@@ -188,11 +188,6 @@ body{
     border-radius: 0.5vw;
     color: rgb(2, 5, 81);
 }
-.not-found
-{
-    
-}
-
 
 @media only screen and (max-width: 550px) {
     .movie-grid{
@@ -209,27 +204,5 @@ body{
         margin-top:0;
         padding-left:0.5%;
         padding-right:0.5%;
-    }
-  }
-
-@media only screen and (max-width: 800px) {
-    #menu-bar{
-    display: flex;
-    flex-direction: column;
-    padding-top: 10%;
-    padding-left: 15%; 
-    margin-right: 6%;
-    position: sticky;
-    }
-    #add-button{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* padding-top: 10%;
-        padding-left: 18%; 
-        padding-bottom: 18%;  */
-        /* align-items: flex-start; */
-        /* position: sticky; */
-        display: flex;
-        justify-content: center;   
     }
   }
